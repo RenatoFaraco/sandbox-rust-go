@@ -11,16 +11,18 @@ type Student struct {
 	Status string
 }
 
-func (s Student) status() string {
+func (s *Student) UpdateStatus() {
 	var sum float32 = 0
 	for _, grade := range s.Grades {
 		sum += grade
 	}
 	average := sum / float32(len(s.Grades))
 	if average >= 60 {
-		return "Aprovado"
+		s.Status = "Aprovado"
+	} else {
+		s.Status = "Reprovado"
 	}
-	return "Reprovado"
+
 }
 
 func main() {
@@ -36,8 +38,8 @@ func main() {
 		Grades: []float32{50, 60, 10},
 	}
 
-	student1.Status = student1.status()
-	student2.Status = student2.status()
+	student1.UpdateStatus()
+	student2.UpdateStatus()
 
 	fmt.Println("Nome:", student1.Name)
 	fmt.Println("Idade:", student1.Age)
