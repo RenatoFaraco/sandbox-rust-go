@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Contando...")
+	fmt.Println("...")
 
 	for i := 0; i < 10; i++ {
 		defer fmt.Println(i)
