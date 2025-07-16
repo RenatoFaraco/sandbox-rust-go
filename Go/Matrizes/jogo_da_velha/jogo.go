@@ -43,7 +43,7 @@ func main() {
 			{"_", "_", "_"},
 		},
 		player: "X",
-		score:  map[string]int{"X": 0, "O": 0, "Empates": 0},
+		score:  map[string]int{"X": 0, "O": 0, "Empates.": 0},
 	}
 
 	clearScreen()
