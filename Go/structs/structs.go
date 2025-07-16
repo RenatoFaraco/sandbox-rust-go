@@ -44,9 +44,9 @@ func (e *Estoque) ValorTotalEstoque() float64 {
 
 func main() {
 	// Criando alguns produtos
-	arroz := &Produto{"Arroz", 25.90, 50}
-	feijao := &Produto{"Feijão", 8.50, 30}
-	oleo := &Produto{"Óleo", 7.99, 20}
+	arroz := &Produto{"s", 25.90, 50}
+	feijao := &Produto{"a", 8.50, 30}
+	oleo := &Produto{"a", 7.99, 20}
 
 	// Atualizando preço de um produto
 	oleo.AtualizarPreco(8.49)
