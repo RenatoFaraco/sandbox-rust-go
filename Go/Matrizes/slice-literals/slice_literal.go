@@ -14,10 +14,10 @@ func main() {
 		b bool
 		s string
 	}{
-		{1, true, "one"},
-		{2, false, "two"},
-		{3, true, "three"},
-		{4, false, "four"},
+		{1, true, "1"},
+		{2, false, "2"},
+		{3, true, "3"},
+		{4, false, "4"},
 	}
 	fmt.Println(s)
 
