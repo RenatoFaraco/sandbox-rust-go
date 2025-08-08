@@ -29,16 +29,16 @@ func split(sum int) (x, y int) {
 }
 
 func main() {
-	fmt.Println("Imprime: ", add(1, 2))
+	fmt.Println("Print: ", add(1, 2))
 
 	a, b := swap("Teste", "Função")
-	fmt.Println("\n Imprime: ", a, b)
+	fmt.Println("\n Print: ", a, b)
 
 	fmt.Println(split(17))
 
 	var i, J int = 1, 2
 	c, python, java := true, false, "no!"
-	fmt.Println("\n Imprime: ", i, J, c, python, java)
+	fmt.Println("\n Print: ", i, J, c, python, java)
 
 	var x int
 	var y float64
@@ -46,7 +46,7 @@ func main() {
 	var w string
 	fmt.Printf("%v %v %v %q\n", x, y, z, w)
 
-	v := 42 + 52i // change me!
+	v := 42 + 52i
 	fmt.Printf("v is of type %T\n", v)
 	fmt.Println(v)
 
