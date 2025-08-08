@@ -64,5 +64,5 @@ func main() {
 			p.Nome, p.Preco, p.Quantidade, p.ValorTotal())
 	}
 
-	fmt.Printf("\nValor total do estoque: R$%.2f\n", estoque.ValorTotalEstoque())
+	fmt.Printf("\n Total do estoque: R$%.2f\n", estoque.ValorTotalEstoque())
 }
