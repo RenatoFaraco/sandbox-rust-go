@@ -14,8 +14,8 @@ func main() {
 		b bool
 		s string
 	}{
-		{1, true, "1"},
-		{2, false, "2"},
+		{1, true, "um"},
+		{2, false, "dois"},
 		{3, true, "3"},
 		{4, false, "4"},
 	}
