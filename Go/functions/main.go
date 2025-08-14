@@ -31,7 +31,7 @@ func split(sum int) (x, y int) {
 func main() {
 	fmt.Println("Print: ", add(1, 2))
 
-	a, b := swap("Teste", "Função")
+	a, b := swap("test", "function")
 	fmt.Println("\n Print: ", a, b)
 
 	fmt.Println(split(17))
