@@ -23,7 +23,7 @@ func fibonacci(n int) []int {
 func main() {
 	n := 100
 	fibSeq := fibonacci(n)
-	fmt.Print("Os números de Fibonacci; \n")
+	fmt.Print("Os números de Fibonacci: \n")
 
 	for i, num := range fibSeq {
 		fmt.Printf("Fib(%d) = %d \n", i, num)
