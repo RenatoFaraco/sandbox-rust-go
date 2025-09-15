@@ -21,7 +21,7 @@ func fibonacci(n int) []int {
 }
 
 func main() {
-	n := 100
+	n := 1000
 	fibSeq := fibonacci(n)
 	fmt.Print("Os números de Fibonacci \n")
 
